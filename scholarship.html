@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>St. Catherine Institute of Technology</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start
+    
+    <div class="container-fluid topbar bg-light px-5 d-none d-lg-block">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-muted small me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                    <a href="tel:+01234567890" class="text-muted small me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
+                    <a href="mailto:example@gmail.com" class="text-muted small me-0"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a href="#"><small class="me-3 text-dark"><i class="fa fa-user text-primary me-2"></i>Register</small></a>
+                    <a href="#"><small class="me-3 text-dark"><i class="fa fa-sign-in-alt text-primary me-2"></i>Login</small></a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fa fa-home text-primary me-2"></i> My Dashboard</small></a>
+                        <div class="dropdown-menu rounded">
+                            <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0" >
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <div style="display: flex; align-items: center; justify-content: flex-end;">
+                    <img src="schoolLogo.png" alt="school" style="margin-right: 10px;">
+                    <h5 class="text-white ">St. Catherine Institute of Technology</h5>
+                </div>                    
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    <a href="about.html" class="nav-item nav-link ">About</a>
+                    <div class="nav-item dropdown ">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                            <span class="dropdown-toggle">Academics</span>
+                        </a>
+                        <div class="dropdown-menu m-0 academic">
+                            <a href="shsprogram.html" class="dropdown-item">SHS Program</a>
+                            <a href="tesda.html" class="dropdown-item">Tesda</a>
+                        </div>
+                    </div>
+
+                    <a href="news.html" class="nav-item nav-link">News</a>
+                    <div class="nav-item dropdown">
+                            <a href="#" class="nav-link active" data-bs-toggle="dropdown">
+                                <span class="dropdown-toggle">Admission & Registraion</span>
+                            </a>
+                            <div class="dropdown-menu m-0">
+                                <a href="requirements.html" class="dropdown-item">Requirements</a>
+                                <a href="policies.html" class="dropdown-item ">Policies</a>
+                                <a href="scholarship.html" class="dropdown-item active">Scholarships</a>
+                            </div>
+                        </div>
+                    <!-- <a href="contact.html" class="nav-item nav-link">Contact Us</a> -->
+                </div>
+                <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get Started</a>
+            </div>
+        </nav>
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Scholarships</h4>  
+            </div>
+        </div>
+        <!-- Header End -->
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+        <!-- Requirements Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <p></p>
+                            <h1 class="display-5 mb-4">St. Catherine Institute of Technology</h1>
+                            <p class="mb-4">is an institution accredited by TESDA that offers Technicals and Vocational Educational and Training Programs (TVET) under the Technical Education and Skills Development Authority (TESDA) and the Commission on Higher Education (CHED).
+                            </p>
+                            <p>
+                                <b>St. Catherine Institute of Technology</b> shall provide quality technical-vocational education in skills training for the youth of tomorrow imbued with work ethics making them self reliant for gainful employment and entrepreneurship.
+                            </p>
+                            <p>
+                                Our Working team is composed of competent individuals whose expertise and track records in the field of education delivers the art of educational as well as professional services. They are committed to our creed in the advancement of knowledge for improving human life . Much more, the schools is equipped to bring fore the state of the art  innovations and the latest trend in technologies to shape the technical. electronics and computer fields.
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-md-5 col-lg-5 col-xl-5">
+                                    <div class="d-flex">
+                                        <div><i class="fas fa-map-marker-alt fa-3x text-primary"></i></div>
+                                        <div class="ms-4">
+                                            <h4>Location</h4>
+                                            <p>425 M. Blas St., Hulong Duhat, Malabon City, Philippines</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6">
+                                    <div class="d-flex">
+                                        <div><i class="fas fa-envelope fa-3x text-primary"></i></div>
+                                        <div class="ms-4">
+                                            <h4>Email</h4>
+                                            <p>stcatherineinstituteoftechnology@yahoo.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="d-flex">
+                                        <i class="fas fa-phone-alt fa-3x text-primary me-4"></i>
+                                        <div>
+                                            <h4>Call Us</h4>
+                                            <p class="mb-0 fs-5" style="letter-spacing: 1px;"> 0918 529 2561 / 352-0859 / 446-6886 / 736-7278</p>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="header-carousel owl-carousel">
+                            <div class="header-carousel-item">
+                                <img src="img/1.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="header-carousel-item">
+                                <img src="img/2.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="header-carousel-item">
+                                <img src="img/3.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="header-carousel-item">
+                                <img src="img/5.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+       
+        <!-- Mission Vission -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5 fadeInLeft">
+                <div class="row g-5 align-items-center">
+                    <h4 class="text-dark text-center  fadeInLeft">Our Mission and Vission</h4>
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <h1 class="display-5 mb-4 text-center"> <i class="fas fa-book  text-dark me-4"></i>Mission</h1>
+                            <p class="mb-0">St. Catherine Institution of Technology shall provide quality technical-vocational education in skills training for the youth of tomorrow imbued with work wthics making them self-reliant for gainful employment and entrepreneurship.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <br>
+                            <h1 class="display-5 mb-4 text-center"> <i class="fas fa-eye  text-dark me-4"></i>Vission</h1>
+                            <p class="mb-0">To advocate changes for academic excellence in any chosen field and to help in the training of the youth for skills in the manpower development by providing quality technical and vocational education relevant to the changing need of our society and industry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <!-- Mission Vission End -->  
+
+
+        <!-- Facilities -->
+        <div class="container-fluid  position-relative p-0">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" >
+                    <h4 class="text-dark">Our Facilities</h4>
+                    <div class="header-carousel owl-carousel">
+                        <div class="header-carousel-item">
+                            <img src="img/1.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="header-carousel-item">
+                            <img src="img/2.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="header-carousel-item">
+                            <img src="img/3.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="header-carousel-item">
+                            <img src="img/5.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="header-carousel-item">
+                            <img src="img/6.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="header-carousel-item">
+                            <img src="img/7.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="header-carousel-item">
+                            <img src="img/8.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="header-carousel-item">
+                            <img src="img/9.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="header-carousel-item">
+                            <img src="img/10.jpg" class="img-fluid w-100" alt="Image">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facilities End -->  
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>St. Catherine Institute of Technology</a>, All right reserved.</span>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
